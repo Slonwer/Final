@@ -1,0 +1,17 @@
+{
+    "description": "RRSECCO PHP OOP",
+    "authors": [
+        {
+            "name": "Ricardo Seco",
+            "email": "rrsecco80@gmail.com"
+        }
+    ], 
+    "autoload": {
+        "psr-4": {
+            "App\\": "app",
+            "Sts\\": "app/sts",
+            "Core\\": "core"
+        }
+    },
+    "require": {}
+}

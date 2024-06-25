@@ -1,0 +1,17 @@
+{
+    "description": "Projeto ADM RRSECCO",
+    "authors": [{
+        "name": "Ricardo Seco",
+        "email": "rrsecco80@gmail.com"
+    }],
+    "autoload": {
+        "psr-4": {
+            "Core\\": "core",
+            "App\\": "app",
+            "Adms\\": "app/adms"
+        }
+    },
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    }
+}
